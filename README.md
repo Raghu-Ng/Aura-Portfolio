@@ -2,8 +2,6 @@
 
 A modern, responsive portfolio website showcasing my projects and skills as a Frontend Developer. Built with React, TypeScript, and Tailwind CSS.
 
-![Portfolio Preview](/uploads/4e4dad60-4605-4b3f-b805-11655ff3853b.png)
-
 ## Features
 
 - **Modern Design**: Clean and professional UI with smooth animations
