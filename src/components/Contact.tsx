@@ -1,4 +1,3 @@
-
 "use client"
 
 import { zodResolver } from "@hookform/resolvers/zod"
@@ -17,6 +16,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { useToast } from "@/hooks/use-toast"
 import { Send } from "lucide-react"
+import emailjs from '@emailjs/browser'
 
 const formSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters."),
@@ -37,12 +37,31 @@ const Contact = () => {
   })
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values)
-    toast({
-      title: "Message Sent!",
-      description: "Thanks for reaching out. I'll get back to you soon.",
-    })
-    form.reset()
+    emailjs.send(
+      'service_1ohy0vi',
+      'template_k54lk02',
+      {
+        user_name: values.name,
+        user_email: values.email,
+        message: values.message,
+      },
+      'XLdYYs6aBW_tWw6h-'
+    ).then(
+      (result) => {
+        toast({
+          title: 'Message Sent!',
+          description: "Thanks for reaching out. I'll get back to you soon.",
+        });
+        form.reset();
+      },
+      (error) => {
+        toast({
+          title: 'Error',
+          description: 'Failed to send message. Please try again later.',
+          variant: 'destructive',
+        });
+      }
+    );
   }
 
   return (
