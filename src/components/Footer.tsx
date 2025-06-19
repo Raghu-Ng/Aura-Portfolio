@@ -46,11 +46,11 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-semibold">Company</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-foreground transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Portfolio</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Testimonials</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Blog</a></li>
+              <li><a href="#about" className="hover:text-foreground transition-colors">About Us</a></li>
+              <li><a href="#image-carousel" className="hover:text-foreground transition-colors">Portfolio</a></li>
+              <li><a href="http://theauraproductions.rf.gd/" className="hover:text-foreground transition-colors">Testimonials</a></li>
+              {/* <li><a href="" className="hover:text-foreground transition-colors">Careers</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Blog</a></li> */}
             </ul>
           </div>
 
@@ -60,15 +60,15 @@ const Footer = () => {
             <div className="space-y-3 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <span>info@theauraproductions.com</span>
+                <span>theauraproductions1@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 9535858066</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                <span>New York, NY</span>
+                <span>Bengaluru, Karnataka</span>
               </div>
             </div>
           </div>

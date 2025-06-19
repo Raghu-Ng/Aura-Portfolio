@@ -97,12 +97,60 @@ const Projects = () => {
 
     // POSTERS - Design work and promotional materials
     {
+      id: 16,
+      title: "BMX Competition Poster",
+      category: "posters",
+      description: "Dynamic poster design for a BMX competition event.",
+      thumbnail: "/uploads/BMXcompitation.jpg",
+      type: "image"
+    },
+    {
+      id: 17,
+      title: "Music Shop Poster",
+      category: "posters",
+      description: "Promotional poster for a music shop with vibrant graphics.",
+      thumbnail: "/uploads/musicshop_poster.jpg",
+      type: "image"
+    },
+    {
+      id: 18,
+      title: "Digital Marketing Course Poster",
+      category: "posters",
+      description: "Poster for a digital marketing course, modern and informative.",
+      thumbnail: "/uploads/Digitalmarket_course.jpg",
+      type: "image"
+    },
+    {
+      id: 19,
+      title: "Digital Marketing Course Poster 2",
+      category: "posters",
+      description: "Alternate design for digital marketing course promotion.",
+      thumbnail: "/uploads/Digitalmarket_course2.jpg",
+      type: "image"
+    },
+    {
+      id: 20,
+      title: "Snickers Shoes Poster",
+      category: "posters",
+      description: "Creative poster design for Snickers shoes brand.",
+      thumbnail: "/uploads/Snickers_shoes.jpg",
+      type: "image"
+    },
+    {
       id: 7,
       title: "Dance Event Poster",
       category: "posters",
       description: "Promotional poster for dance event with vibrant colors and dynamic typography.",
       thumbnail: "/uploads/Dance Poster.png",
       type: "image"
+    },
+    {
+      id: 28,
+      title: "Ice Cream Ad",
+      category: "videos",
+      description: "Vibrant and enticing ice cream advertisement reel with playful visuals and upbeat music.",
+      video: "/uploads/icecream_ad.mp4",
+      type: "video"
     },
     {
       id: 8,
@@ -171,83 +219,77 @@ const Projects = () => {
 
     // VIDEOS - Full length commercial videos (not reels)
     {
-      id: 16,
-      title: "Coca Cola Commercial",
+      id: 28,
+      title: "Ice Cream Ad",
       category: "videos",
-      description: "Dynamic commercial showcasing Coca Cola's refreshing appeal with cinematic visuals and compelling storytelling.",
-      video: "/uploads/Coca Cola.mp4",
+      description: "Vibrant and enticing ice cream advertisement reel with playful visuals and upbeat music.",
+      video: "/uploads/icecream_ad.mp4",
       type: "video"
     },
     {
-      id: 17,
+      id: 22,
       title: "Real Estate Promotional",
       category: "videos",
       description: "Luxury real estate promotional video with stunning aerial shots and elegant property showcases.",
       video: "/uploads/realestate .mp4",
       type: "video"
     },
+    // REELS - Short form content
     {
-      id: 18,
+      id: 26,
+      title: "Cream Ad Reel",
+      category: "reels",
+      description: "Short-form reel for a cream advertisement, energetic and engaging.",
+      video: "/uploads/cream_ad.mp4",
+      type: "video"
+    },
+    {
+      id: 27,
+      title: "Car Transition Reel",
+      category: "reels",
+      description: "Dynamic car transition reel with smooth effects.",
+      video: "/uploads/car_transtion.mp4",
+      type: "video"
+    },
+    {
+      id: 21,
+      title: "Coca Cola Commercial",
+      category: "reels",
+      description: "Dynamic commercial showcasing Coca Cola's refreshing appeal with cinematic visuals and compelling storytelling.",
+      video: "/uploads/Coca Cola.mp4",
+      type: "video"
+    },
+    
+    {
+      id: 23,
       title: "Gym Advertisement",
-      category: "videos",
+      category: "reels",
       description: "Energetic gym advertisement promoting fitness lifestyle with dynamic workout sequences.",
       video: "/uploads/GYM Ad.mp4",
       type: "video"
     },
     {
-      id: 19,
+      id: 24,
       title: "Product Launch",
-      category: "videos",
+      category: "reels",
       description: "Creative product launch video for Orange brand with innovative visual effects.",
       video: "/uploads/Orange (1).mp4",
       type: "video"
     },
     {
-      id: 20,
+      id: 25,
       title: "Trial Project",
-      category: "videos",
+      category: "reels",
       description: "Corporate trial project showcasing our capabilities in professional video production.",
       video: "/uploads/Trial.mp4",
       type: "video"
     },
 
-    // REELS - Short form content
-    {
-      id: 21,
-      title: "Podcast Reel",
-      category: "reels",
-      description: "Professional podcast promotional content with engaging visuals and audio highlights.",
-      video: "/uploads/Podcast Reel.mp4",
-      type: "video"
-    },
-    {
-      id: 22,
-      title: "After Effects Showcase",
-      category: "reels",
-      description: "Motion graphics and visual effects compilation showcasing our creative capabilities.",
-      video: "/uploads/After Effcets.mp4",
-      type: "video"
-    },
-    {
-      id: 23,
-      title: "Professional Advertisement",
-      category: "reels",
-      description: "Professional advertisement with multiple angles and dynamic editing.",
-      video: "/uploads/Formal reel.mp4",
-      type: "video"
-    },
-    {
-      id: 24,
-      title: "Gym Workout Reel",
-      category: "reels",
-      description: "High-energy workout compilation with motivational music and dynamic transitions.",
-      video: "/uploads/Gym.mp4",
-      type: "video"
-    },
+
 
     // CAROUSEL 2
     {
-      id: 25,
+      id: 28,
       title: "Explanatory Carousel",
       category: "carousel",
       description: "Educational carousel with step-by-step process explanations and interactive elements for better user engagement.",
