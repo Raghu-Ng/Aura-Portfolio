@@ -145,14 +145,6 @@ const Projects = () => {
       type: "image"
     },
     {
-      id: 28,
-      title: "Ice Cream Ad",
-      category: "videos",
-      description: "Vibrant and enticing ice cream advertisement reel with playful visuals and upbeat music.",
-      video: "/uploads/icecream_ad.mp4",
-      type: "video"
-    },
-    {
       id: 8,
       title: "Dance Performance Poster",
       category: "posters",
@@ -219,11 +211,11 @@ const Projects = () => {
 
     // VIDEOS - Full length commercial videos (not reels)
     {
-      id: 28,
-      title: "Ice Cream Ad",
-      category: "videos",
-      description: "Vibrant and enticing ice cream advertisement reel with playful visuals and upbeat music.",
-      video: "/uploads/icecream_ad.mp4",
+      id: 21,
+      title: "Coca Cola Commercial",
+      category: "reels",
+      description: "Dynamic commercial showcasing Coca Cola's refreshing appeal with cinematic visuals and compelling storytelling.",
+      video: "/uploads/Coca Cola.mp4",
       type: "video"
     },
     {
@@ -234,32 +226,6 @@ const Projects = () => {
       video: "/uploads/realestate .mp4",
       type: "video"
     },
-    // REELS - Short form content
-    {
-      id: 26,
-      title: "Cream Ad Reel",
-      category: "reels",
-      description: "Short-form reel for a cream advertisement, energetic and engaging.",
-      video: "/uploads/cream_ad.mp4",
-      type: "video"
-    },
-    {
-      id: 27,
-      title: "Car Transition Reel",
-      category: "reels",
-      description: "Dynamic car transition reel with smooth effects.",
-      video: "/uploads/car_transtion.mp4",
-      type: "video"
-    },
-    {
-      id: 21,
-      title: "Coca Cola Commercial",
-      category: "reels",
-      description: "Dynamic commercial showcasing Coca Cola's refreshing appeal with cinematic visuals and compelling storytelling.",
-      video: "/uploads/Coca Cola.mp4",
-      type: "video"
-    },
-    
     {
       id: 23,
       title: "Gym Advertisement",
@@ -284,8 +250,32 @@ const Projects = () => {
       video: "/uploads/Trial.mp4",
       type: "video"
     },
+    {
+      id: 30,
+      title: "Ice Cream Ad",
+      category: "videos",
+      description: "Vibrant and enticing ice cream advertisement reel with playful visuals and upbeat music.",
+      video: "/uploads/icecream_ad.mp4",
+      type: "video"
+    },
 
-
+    // REELS - Short form content
+    {
+      id: 26,
+      title: "Cream Ad Reel",
+      category: "reels",
+      description: "Short-form reel for a cream advertisement, energetic and engaging.",
+      video: "/uploads/cream_ad.mp4",
+      type: "video"
+    },
+    {
+      id: 27,
+      title: "Car Transition Reel",
+      category: "reels",
+      description: "Dynamic car transition reel with smooth effects.",
+      video: "/uploads/car_transtion.mp4",
+      type: "video"
+    },
 
     // CAROUSEL 2
     {
